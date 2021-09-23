@@ -429,8 +429,118 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 //    console.trace();
 // }
 
-const m1 = document.querySelector('button');
- m1.onclick = () => {
-   console.log('Bduuuu!!!');
-}
-console.dir('button')
+// const m1 = document.querySelector('button');
+//  m1.onclick = () => {
+//    // console.log('Bduuuu!!!');
+//    console.log(message);
+// }
+// // console.dir('button')
+
+
+/******************************************************* */
+
+// const str = "Мама мыла раму";
+
+// for (let i = 0; i < str.length; i++) {
+//     console.log(str.charAt(i));
+// }
+
+
+// var charLength = 0; //You have a global and local variable, omit this one
+// var count = function(text) {
+//    var charLength = text.length;
+//    var wordCount = 0;
+//    for (var i = 0; i < text.length; i++) { // declare i with var, start at 0
+//      if (text.charAt(i) == " ") {
+//        wordCount++;
+//      }
+//    }
+//    return { 'charLength': charLength, 'wordCount': wordCount };
+//  };
+ 
+//  var text = "Hello there fine sir.";
+//  console.log(count(text)); // add a way to see the results
+
+// // /************************************************************/ 
+// const str = "Мама мыла раму";
+
+// for (let i = 0; i < str.length; i++) {
+//     console.log(str.charAt(7));
+// }
+
+// var str="Мама мыла раму";
+
+// str = str.split(" ").join("");
+
+// console.log(str.length);
+
+// const firstRow = 'мама мыла раму';
+// const secondRow = 'собака друг человека';
+
+// function getRow(firstRow, secondRow) {
+//    for (let i = 0; i < firstRow.length; i++) {
+//     console.log(firstRow.charAt(i));
+//    }
+//    for (let i = 0; i < secondRow.length; i++) {
+//     console.log(secondRow.charAt(i));
+//    }
+// }
+// const result = getRow(firstRow, secondRow);
+// console.log(result); // мама мыла раму
+/*============================$$$$$$=============================== */
+
+// let count = 0; // инициализируем переменную, которая будет выступать в роли счетчика
+// let count_2 = 0;
+// const firstRow = 'мама мыла раму'; //фраза проверки колличества букв /а/
+// const secondRow = 'собака друг человека'; //фраза проверки колличества букв /а/
+
+// let charCount = function( char, firstRow, secondRow ) {
+//     for (let i = 0; i < firstRow.length; i++) {
+//       firstRow.charAt( i ) == char ? count++ : false; //проверяем содержится переданный символ по данному индексу, если да то инкрементируем переменную
+//     }
+//     for (let j = 0; j < secondRow.length; j++) {
+//       secondRow.charAt( j ) == char ? count_2++ : false; //проверяем содержится переданный символ по данному индексу, если да то инкрементируем переменную
+//     }
+
+//     if (count >= count_2) {
+//        console.log(`В фразе мама мыла раму ${count} буквы А`);
+//     } else {
+//        console.log(`В фразе собака друг человека ${count_2} буквы А`);
+//     }
+// }
+
+// charCount( "а", firstRow , secondRow); // результат 
+
+/*=======================================$$$$$$============================================================= */
+
+// /**************************************************************** */
+// let b = function () {
+
+// }
+
+// const x = 2; 
+// const y = 3;
+
+// function plus1(x) {
+// const y = 20;
+
+//    return x + 1;
+
+// }
+// console.log(plus1(y));
+
+// let x = true;
+// let b = false;
+// if (x != x) {
+// console.log(typeof(b))
+   
+// }
+
+
+/* Запустить консоль лог 10 раз*/
+
+// let result = '';
+//    for (let i = 0; i < 10; i++) {
+//       result += i + "  ";
+// }
+// console.log(result); 
