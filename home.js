@@ -515,33 +515,38 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 /*=======================================$$$$$$============================================================= */
 
 // /**************************************************************** */
-// let b = function () {
+/** 
+ * 
+ * let b = function () {
 
-// }
+}
 
-// const x = 2; 
-// const y = 3;
+const x = 2;
+const y = 3;
 
-// function plus1(x) {
-// const y = 20;
+function plus1(x) {
+const y = 20;
 
-//    return x + 1;
+   return x + 1;
 
-// }
-// console.log(plus1(y));
+}
+console.log(plus1(y));
 
-// let x = true;
-// let b = false;
-// if (x != x) {
-// console.log(typeof(b))
-   
-// }
+let x = true;
+let b = false;
+if (x != x) {
+console.log(typeof(b))
+
+}
+ */
 
 
-/* Запустить консоль лог 10 раз*/
 
-// let result = '';
-//    for (let i = 0; i < 10; i++) {
-//       result += i + "  ";
-// }
-// console.log(result); 
+/* Запустить счётчик в консоль 10 раз*/
+/*
+let result = '';
+   for (let i = 0; i < 10; i++) {
+      result += i + "  ";
+}
+console.log(result); 
+*/

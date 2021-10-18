@@ -81,6 +81,13 @@
  // }
 // getDrinksWithStep(10, 3);
 
+/**
+ * ! function not completed
+ * @param {} amount 
+ * @param {} percent 
+ * @param {} period 
+ * @returns 
+ 
 function calculateProfit(amount, percent, period) {
   // write code here
   let income = 0;
@@ -96,4 +103,4 @@ function calculateProfit(amount, percent, period) {
 
 }
 calculateProfit(1000, 5, 7);
-
+*/
