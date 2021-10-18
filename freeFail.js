@@ -19,17 +19,9 @@
 
 // let isdead = !isAlive;
 // console.log(isdead);
-// const message = 10;
-// let message2 = 17;
-// const m1 = document.querySelector('button');
-//  m1.onclick = () => {
-//    console.log('Bduuuu!!!');
-//    if (message > 12) {
-//     console.log(message);
-//    } else {
-//      console.log(message2 + message + ' ' + 'year ego')
-//    }
-// }
+
+
+
 
 
 // function getDrinks(numberOfGuests) {
