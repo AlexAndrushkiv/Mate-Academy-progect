@@ -44,9 +44,10 @@ f1();
 f1();
 f1();
 
-
-// const push = document.querySelector('.btn');
-// push.onclick = () => {
-//    console.log('Bduuuu!!!');
+/*
+const push = document.querySelector('.btn');
+push.onclick = () => {
+   console.log('Bduuuu!!!');
   
-// }
+}
+*/
