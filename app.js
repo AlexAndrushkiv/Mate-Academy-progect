@@ -1,24 +1,27 @@
-// 'use strict';
-// /* eslint-disable */
+/* 
+'use strict';
+//  eslint-disable 
 
-// let isHoliday = false;
-// let isVacation = false;
-// // write code below this line
-// isVacation = !isHoliday;
+let isHoliday = false;
+let isVacation = false;
+// write code below this line
 
-// // write code above this line
-// const canStayHome = isHoliday || isVacation; // don't change this line
-// console.log(canStayHome);
+isVacation = !isHoliday;
 
-// let a = 50;
-// let b = 40;
+// write code above this line
+const canStayHome = isHoliday || isVacation; // don't change this line
+console.log(canStayHome);
 
-// a = !b;
+let a = 50;
+let b = 40;
 
-// console.log(a, b);
+a = !b;
 
-// const x = 10 / '20';
-// console.log(x);
+console.log(a, b);
+
+const x = 10 / '20';
+console.log(x);
+*/
 
 // 'use strict';
 

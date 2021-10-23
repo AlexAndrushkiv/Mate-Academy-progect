@@ -3,55 +3,57 @@
 //    console.log(' Я безымянная функция')
 //       ();
 
-
+/**************************************************** */ 
 // let car = {
-
 // 	maxSpeed : 250
 // 	}
-
 // console.log("скорость моей тачки была " + car.maxSpeed);
 
-
+/************************************************************* */
 // function speedChange(speed) {
 // 	speed = car.maxSpeed = 280;
 // }
-
 // speedChange(car);
-
 // console.log("скорость моей тачки стала " + car.maxSpeed);
-
+/******************************************************************** */
 //  (() => {
 // 	console.log("я стрелочная функция");
 // })();
 
-
+/********************************************************** */
 // (() => console.log("стрелочная функция"))();
+
 // (function() {
 // 	for (var i = 0; i < 10; i++) {
 // 	console.log( i);
 // 	}
-// })();
+// })
+// ();
 
+/************************************************************** */
 // let drivers = ["Иван","Сергей","Егор"];
 
 // for (let i = 0; i < drivers.length; i++) {
 // 	console.log(drivers[i]);
 // }
+/************************************************************* */
 
 // const drivers = ["Иван","Сергей","Егор","Степан","Тарас","Женя","Денис"]
 
 // for (var i = drivers.length - 1; i >= 0; i--) {
 // 	console.log(drivers[i]);
 // }
+/****************************************************** */
 
 // for ( let driver of drivers ) {
 // 	console.log(drivers)
 // }
-
+/********************************************************* */
 // const cars = ['mazda', 'ford', 'porshe' ]
 // for (let i = 0; i < cars.length; i++) {
 // 	console.log(cars[i])
 // }
+/************************************************************** */
 // спецификация ES6 - конкотенация строк в примере массива данных
 
 /* const myCar = {
@@ -59,7 +61,7 @@
 }
 console.log(`Мой автомобиль: ${myCar.make}`) //обратные скобки,знак доллара и кавычки используются вместо плюсов  */
 
-
+/************************************************************ */
 // var i = 0;
 // var n = 1;
 // while (i < 5) {
@@ -71,9 +73,7 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 // }
 // console.log(`${n} ${i}`);
 
-
 /*==============================================================*/ 
-
 
 // const getLargestExpressionResult = (a, b) => {
 //     const sum = a + b;
@@ -99,6 +99,7 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 // };
 
 // getLargestExpressionResult(-5, -1);
+/************************************************************* */
 
 // const getLargestExpressionResult = (a, b) => {
 //     const r1 = a + b;
@@ -124,6 +125,7 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 // };
 
 // getLargestExpressionResult(1, 1);
+/************************************************************************** */
 
 // const getLargestExpressionResult = (a, b) => {
 //     const sum = a + b;
@@ -153,6 +155,7 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 // };
 // getLargestExpressionResult(1, 1);
 
+/************************************************************************* */
 
 // function getTask(weekday) {
 //     if (weekday === 'monday') {
@@ -177,6 +180,7 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 //                 }
 // }
 // console.log(getTask('tuesday'));
+/********************************************************************************** */
 
 // const weekday = 'friday';
 
@@ -213,6 +217,7 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 //         console.log('Entered the wrong day of the week');
 
 // }
+/************************************************************** */
 
 // switch (true) {
 //     case weekday === 'monday':
@@ -402,13 +407,9 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 // 'use strict';
 
 /**
-//  * @param {number} numberOfGuests
-//  * @param {number} step
-//  *
-//  * @returns {number}
-//  */
+
 // function getDrinksWithStep(numberOfGuests, step) {
-//    // write code here
+
 //    let guests = 1;
 
 //    for (let i = 0; i <= step; i++) {
@@ -429,8 +430,123 @@ console.log(`Мой автомобиль: ${myCar.make}`) //обратные с�
 //    console.trace();
 // }
 
-const m1 = document.querySelector('button');
- m1.onclick = () => {
-   console.log('Bduuuu!!!');
+// const m1 = document.querySelector('button');
+//  m1.onclick = () => {
+//    // console.log('Bduuuu!!!');
+//    console.log(message);
+// }
+// // console.dir('button')
+
+
+/******************************************************* */
+
+// const str = "Мама мыла раму";
+
+// for (let i = 0; i < str.length; i++) {
+//     console.log(str.charAt(i));
+// }
+
+
+// var charLength = 0; //You have a global and local variable, omit this one
+// var count = function(text) {
+//    var charLength = text.length;
+//    var wordCount = 0;
+//    for (var i = 0; i < text.length; i++) { // declare i with var, start at 0
+//      if (text.charAt(i) == " ") {
+//        wordCount++;
+//      }
+//    }
+//    return { 'charLength': charLength, 'wordCount': wordCount };
+//  };
+ 
+//  var text = "Hello there fine sir.";
+//  console.log(count(text)); // add a way to see the results
+
+// // /************************************************************/ 
+// const str = "Мама мыла раму";
+
+// for (let i = 0; i < str.length; i++) {
+//     console.log(str.charAt(7));
+// }
+
+// var str="Мама мыла раму";
+
+// str = str.split(" ").join("");
+
+// console.log(str.length);
+
+// const firstRow = 'мама мыла раму';
+// const secondRow = 'собака друг человека';
+
+// function getRow(firstRow, secondRow) {
+//    for (let i = 0; i < firstRow.length; i++) {
+//     console.log(firstRow.charAt(i));
+//    }
+//    for (let i = 0; i < secondRow.length; i++) {
+//     console.log(secondRow.charAt(i));
+//    }
+// }
+// const result = getRow(firstRow, secondRow);
+// console.log(result); // мама мыла раму
+/*============================$$$$$$=============================== */
+
+// let count = 0; // инициализируем переменную, которая будет выступать в роли счетчика
+// let count_2 = 0;
+// const firstRow = 'мама мыла раму'; //фраза проверки колличества букв /а/
+// const secondRow = 'собака друг человека'; //фраза проверки колличества букв /а/
+
+// let charCount = function( char, firstRow, secondRow ) {
+//     for (let i = 0; i < firstRow.length; i++) {
+//       firstRow.charAt( i ) == char ? count++ : false; //проверяем содержится переданный символ по данному индексу, если да то инкрементируем переменную
+//     }
+//     for (let j = 0; j < secondRow.length; j++) {
+//       secondRow.charAt( j ) == char ? count_2++ : false; //проверяем содержится переданный символ по данному индексу, если да то инкрементируем переменную
+//     }
+
+//     if (count >= count_2) {
+//        console.log(`В фразе мама мыла раму ${count} буквы А`);
+//     } else {
+//        console.log(`В фразе собака друг человека ${count_2} буквы А`);
+//     }
+// }
+
+// charCount( "а", firstRow , secondRow); // результат 
+
+/*=======================================$$$$$$============================================================= */
+
+// /**************************************************************** */
+/** 
+ * 
+ * let b = function () {
+
 }
-console.dir('button')
+
+const x = 2;
+const y = 3;
+
+function plus1(x) {
+const y = 20;
+
+   return x + 1;
+
+}
+console.log(plus1(y));
+
+let x = true;
+let b = false;
+if (x != x) {
+console.log(typeof(b))
+
+}
+ */
+
+
+
+/* Запустить счётчик в консоль 10 раз*/
+/*
+let result = '';
+   for (let i = 0; i < 10; i++) {
+      result += i + "  ";
+}
+console.log(result); 
+*/
