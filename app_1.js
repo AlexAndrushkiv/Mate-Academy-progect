@@ -110,7 +110,32 @@ d();
 d();
 d();
 -------------------------------------------------------------------*/
+/**
+ * *Рекурсия - это вызов функции сомой себя
+ 
+let a =1;
+function rec(params) {
+    a++;
+    console.log(a);
+    if (a > 10) return a;
+    rec();
+}
+// rec();
 
+let offset = 0;
+function move(params) {
+    offset = offset + 5;
+    document.querySelector('.color').style.left = offset + 'px';
+        if (offset > 300) {
+            return document.querySelector('.color').style.left = 0 + 'px' 
+            
+        }
+        setTimeout(move, 50);
+}
+document.querySelector('.btn').onclick = move;
+console.log();
+*/
+/*-----------------------------------------------------------------*/
 //*! 5 задач на собеседовании */
 //* 1 задача
 //написать функ. которая определит является ли сторока палиндромом.
@@ -135,9 +160,8 @@ d();
 //*задача 2
 //Необходимо реализовать метод меняющий порядокэлементов в массиве на обратный не используя стороних библиотек
 
-
-let a = [1, 3, 5, 7, 90];
-let a1 = [44, 64, 3, 22, 89, 1];
+// let a = [1, 3, 5, 7, 90];
+// let a1 = [44, 64, 3, 22, 89, 1];
 
 // ?решение1
 // console.log(a.reverse());
@@ -156,11 +180,11 @@ let a1 = [44, 64, 3, 22, 89, 1];
 // }
 // console.log(reverse2(a));
 //?решение4
-const reverse3 = a => {
-    result = [];
-    for (let i = a.length - 1; i >= 0; i--) {
-        result.push(a[i]);
-    }
-    return result;
-}
-console.log(reverse3(a1));
+// const reverse3 = a => {
+//     result = [];
+//     for (let i = a.length - 1; i >= 0; i--) {
+//         result.push(a[i]);
+//     }
+//     return result;
+// }
+// console.log(reverse3(a1));
